@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - CollaBro</title>
+
+
+    <!-- Bootstrap Links -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts Link -->
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+
+
+    <!-- Own CSS Link -->
+
+    <link rel="stylesheet" href="CSS\index.css" />
+    <link rel="stylesheet" href="CSS\profile.css">
+
+    <!-- Font Awesome Script Link -->
+    <script
+      src="https://kit.fontawesome.com/cad9d9bd0a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- box icons -->
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+    <!-- AOS Link -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      $(function() {
+        AOS.init();
+       });
+    </script>
+
+
+</head>
+<body>
+  <section id="full">
+    <div class="container-fluid">
+
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-default navbar-custom" id="navmod">
+        <a class="navbar-brand" href="index.html">CollaBro</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Profile</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Alerts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">What's New?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row bleh">
+        <div class="col-lg-12 prof-box">
+            
+            <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="project-tab" data-toggle="tab" href="#project" role="tab" aria-controls="project" aria-selected="false">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">CollaBs</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="row">
+                  <div class="col-12">
+                    
+                  <button class="btn btn-dark btn-sm typ-button edit-ico" id="myBtn"><i class="fas fa-lg fa-pen-square"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="row first">
+                  
+                    <div class="col-sm-3 pro-pic">
+                      <div class="prof-pic-container">
+                        <img src="images\prof-pic.jpg" alt="profile-pic" class="prof-pic">
+                        <p>Do what you love!</p>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="about-details">
+                            <h2>Test Name.</h2>
+                            <br>
+                            Studying B-Tech at MITS, Puthencruz.
+                            <br>
+                            Intrested in ML, Deep Learning...etc.
+                            
+                            
+                      </div>
+                  </div>
+                  <div class="col-sm-2">
+                    <div class="side-about-details">
+                      <br>
+                      
+                          Blah Blah
+                          <br>
+                          blah Blah
+                          <br>
+                          Blehhh!
+                    </div>
+                </div>
+              </div>
+
+
+
+
+              <!-- modal1 -->
+
+              <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h2>Edit Profile</h2>
+                    <span class="close">&times;</span>
+                    
+                  </div>
+                  <div class="modal-body">
+                    <div class="row first">
+                      <div class="col-sm-3 pro-pic">
+                        <div class="prof-pic-container">
+                          <img src="images\prof-pic.jpg" alt="profile-pic" class="prof-pic">
+                          <button class="btn btn-dark btn-sm typ-button edit-ico" id="myBtn"><i class="fas fa-lg fa-pen-square"></i>
+                          </button>
+                          <p>Do what you love!</p>
+                          
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="about-details">
+                              <h2>Test Name.</h2>
+                              <br>
+                              Studying B-Tech at MITS, Puthencruz.
+                              <br>
+                              Intrested in ML, Deep Learning...etc.
+                              <button class="btn btn-dark btn-sm typ-button edit-ico" id="myBtn"><i class="fas fa-lg fa-pen-square"></i>
+                              </button>
+                              
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="side-about-details">
+                        <br>
+                            Blah Blah
+                            <br>
+                            blah Blah
+                            <br>
+                            Blehhh!
+                            <button class="btn btn-dark btn-sm typ-button edit-ico" id="myBtn"><i class="fas fa-lg fa-pen-square"></i>
+                            </button>
+                      </div>
+                  </div>
+                </div>
+                  </div>
+                  
+                </div>
+              
+              </div>
+
+              <!-- modal1 end -->
+
+                <div class="row second">
+
+                  <div class="col-md-9 col-sm-6">
+                    <div class="skills-home">
+
+                      <h3 class="skil-head">Skills</h3>
+                      
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="add-skill-button-container">
+                    <a href="#project"><button type="button" class="btn btn-dark btn-lg add-skill-btn">
+                      <i class="fas fa-handshake typ-button"></i> Add Skill
+                    </button></a>
+                  </div>
+                  
+                </div>
+              </div>
+              
+              <!-- <div class="skills-listing"> -->
+
+                <div class="row third">
+                  <div class="skill-box col-lg-3 col-md-4">
+                    <div class="skills-home-container">
+                        <div class="skill-home-card-title">
+                            <h4>Skill-1</h4>
+                        </div>
+                          <p>Intermediate <br> 6 Months. <br>4 Major projects & 2 minor projects.</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="skill-box col-lg-3 col-md-4">
+                    <div class="skills-home-container">
+                        <div class="skill-home-card-title">
+                            <h4>Skill-2</h4>
+                        </div>
+                          <p>Intermediate <br> 6 Months. <br>4 Major projects & 2 minor projects.</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="skill-box col-lg-3 col-md-4">
+                    <div class="skills-home-container">
+                        <div class="skill-home-card-title">
+                            <h4>Skill-3</h4>
+                        </div>
+                          <p>Intermediate <br> 6 Months. <br>4 Major projects & 2 minor projects.</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="skill-box col-lg-3 col-md-4">
+                    <div class="skills-home-container">
+                        <div class="skill-home-card-title">
+                            <h4>Skill-4</h4>
+                        </div>
+                          <p>Intermediate <br> 6 Months. <br>4 Major projects & 2 minor projects.</p>
+
+                    </div>
+
+                  </div>
+
+
+                  <div class="skill-box col-lg-3 col-md-4">
+                    <div class="skills-home-container">
+                        <div class="skill-home-card-title">
+                            <h4>Skill-5</h4>
+                        </div>
+                          <p>Intermediate <br> 6 Months. <br>4 Major projects & 2 minor projects.</p>
+
+                    </div>
+
+                  </div>
+
+                  
+
+                </div>
+              <!-- </div> -->
+
+
+              </div>
+              <div class="tab-pane fade" id="project" role="tabpanel" aria-labelledby="project-tab">
+                
+                <div class="row second">
+
+                  <div class="col-md-9 col-sm-6">
+                    <div class="project-home">
+
+                      <h3 class="project-head">Projects</h3>
+                      
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="add-project-button-container">
+                    <a href="#project"><button type="button" class="btn btn-dark btn-lg add-project-btn">
+                      <i class="fas fa-handshake start-collabing"></i> Add a Project
+                    </button></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row third">
+                <div class="skill-box col-lg-3 col-md-4">
+                  <div class="skills-home-container">
+                      <div class="skill-home-card-title">
+                          <h4>Project-1</h4>
+                      </div>
+                        <p>Topic <br> Time spent yet. <br>Brief about the project.</p>
+
+                  </div>
+
+                </div>
+                  <div class="skill-box col-lg-3 col-md-4">
+                    <div class="skills-home-container">
+                        <div class="skill-home-card-title">
+                            <h4>Project-2</h4>
+                        </div>
+                        <p>Topic <br> Time spent yet. <br>Brief about the project.</p>
+
+                    </div>
+
+                  </div>
+                    <div class="skill-box col-lg-3 col-md-4">
+                      <div class="skills-home-container">
+                          <div class="skill-home-card-title">
+                              <h4>Project-3</h4>
+                          </div>
+                          <p>Topic <br> Time spent yet. <br>Brief about the project.</p>
+  
+                      </div>
+  
+                    </div>
+                      <div class="skill-box col-lg-3 col-md-4">
+                        <div class="skills-home-container">
+                            <div class="skill-home-card-title">
+                                <h4>Project-4</h4>
+                            </div>
+                            <p>Topic <br> Time spent yet. <br>Brief about the project.</p>
+    
+                        </div>
+                      </div>
+                      
+                        <div class="skill-box col-lg-3 col-md-4">
+                          <div class="skills-home-container">
+                              <div class="skill-home-card-title">
+                                  <h4>Project-5</h4>
+                              </div>
+                              <p>Topic <br> Time spent yet. <br>Brief about the project.</p>
+      
+                          </div>
+      
+                        </div>
+
+
+              </div>
+              </div>
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+                <div class="row second">
+
+                  <div class="col-md-6 col-sm-6">
+                    <div class="project-home">
+
+                      <h3 class="project-head">Ongoing CollaBs</h3>
+                      
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="searchbar-con">
+                    <form>
+                      <input class="searchbar" type="text" placeholder="Search.." name="search">
+                      <button class="btn btn-dark btn-sm" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row third">
+                <div class="skill-box col-lg-3 col-md-4">
+                  <div class="skills-home-container">
+                      <div class="skill-home-card-title">
+                          <h4>CollaB-1</h4>
+                      </div>
+                        <p>Topic <br> Time spent yet. <br>Brief about the CollaB. <br>Members</p>
+                        <button type="button" class="btn btn-dark btn-lg add-project-btn">
+                          <i class="fas fa-handshake start-collabing"></i> More Info
+                        </button>
+                  </div>
+
+
+              </div>
+
+              </div>
+
+            </div>
+
+        </div>
+
+        </div>
+
+    </div>
+      </section>
+    
+    
+
+      <div class="blah">
+        <hr class="bottom-hr" />
+    
+        <footer>
+          <i class="foot-ico fab fa-twitter"></i>
+          <i class="foot-ico fab fa-facebook-f"></i>
+          <i class="foot-ico fab fa-instagram"></i>
+          <i class="foot-ico fas fa-envelope"></i>
+    
+          <p>© Copyright 2020 CollaBro</p>
+        </footer>
+      </div>
+
+
+      <script src="JS\index.js"></script>
+      <script>
+        $(".nav li").on("click",function(){
+          $(".nav li").removeClass("active");
+          $(this).addClass("active");
+        });
+
+
+        // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+      </script>
+
+</body>
+</html>

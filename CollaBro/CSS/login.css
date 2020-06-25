@@ -1,0 +1,135 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 100vw;
+  max-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Montserrat';
+  
+}
+
+@media all and (min-width: 0px) and (max-width: 800px){
+  #login-box{
+    margin-top: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .blah{
+    margin-top: 55%;
+  }
+  /* .bottom-hr {
+    position: fixed;  
+  } */
+}
+
+/********* selectors ***********/
+
+body {
+  background-color: #ff9933;
+  padding: 0;
+  margin: 0;
+}
+
+/* ids */
+
+
+
+/********* classes ***********/
+.login-label {
+  color: white;
+}
+/* login form */
+.form-container {
+  margin: 15% auto 15%;
+  background-image: linear-gradient(to bottom, #fd8f20, #f3b97f);
+  padding: 1% 3% 2%;
+  width: 33%;
+  box-shadow: 3px 4px 40px #915700, 0 0 8px #000000;
+}
+/* LOGIN HEADING */
+.login-head {
+  color: white;
+  text-align: center;
+  line-height: 5rem;
+}
+/* input focus */
+.login-input:focus {
+  border-color: #1e1e1e;
+  box-shadow: 0 1px 1px #1e1e1e, 0 0 8px #1e1e1e;
+}
+/* login button */
+.login-button {
+  background-color: #1e1e1e;
+  border-color: #1e1e1e;
+}
+.login-button:hover {
+  background-color: rgb(61, 59, 59);
+  border-color: rgb(61, 59, 59);
+}
+.form-box {
+  margin-top: 15%;
+}
+.form {
+  padding-top: 100%;
+  margin: 25% auto 25%;
+  background-image: linear-gradient(to bottom, #fd8f20, #f3b97f);
+  padding: 1% 3% 2%;
+  width: 33%;
+}
+
+.row {
+  align-items: center;
+}
+ .info-box {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 15%;
+  color: #1e1e1e;
+  text-align: center;
+  box-shadow: 0 0 30px #1e1e1e93;
+  /* padding: 20px 0 30px 0;
+  margin-bottom: 30px; */
+  width: 100%;
+  background-image: linear-gradient(to bottom, #fd8f20, #f3b97f);
+  padding: 1% 3% 2%;
+  border-radius: 20px;
+}
+.form-group {
+  text-align: left;
+}
+/* Footer */
+.bottom-hr {
+  border-bottom: solid 0.25rem #a55200;
+  margin: 0;
+  padding-right: 0;
+}
+
+
+footer {
+  width: 100%;
+  background-color: #1e1e1e;
+  text-align: center;
+  margin: 0;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  color: white;
+  /* position: fixed;
+  bottom: 0; */
+  /* margin-top: -200px; */
+}
+.foot-ico {
+  padding: 0 0.5rem 2rem;
+}
+
+
+
+
+
